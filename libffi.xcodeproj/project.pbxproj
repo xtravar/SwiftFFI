@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F79761031BCCDB3E0044C316 /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760F31BCCDB3E0044C316 /* ffi_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79761041BCCDB3E0044C316 /* ffi_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760F41BCCDB3E0044C316 /* ffi_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79761051BCCDB3E0044C316 /* ffi_common.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760F51BCCDB3E0044C316 /* ffi_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79761061BCCDB3E0044C316 /* ffi_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760F61BCCDB3E0044C316 /* ffi_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79761071BCCDB3E0044C316 /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760F71BCCDB3E0044C316 /* ffi_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79761081BCCDB3E0044C316 /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760F81BCCDB3E0044C316 /* ffi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79761091BCCDB3E0044C316 /* fficonfig_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760F91BCCDB3E0044C316 /* fficonfig_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F797610A1BCCDB3E0044C316 /* fficonfig_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760FA1BCCDB3E0044C316 /* fficonfig_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F797610B1BCCDB3E0044C316 /* fficonfig_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760FB1BCCDB3E0044C316 /* fficonfig_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F797610C1BCCDB3E0044C316 /* fficonfig_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760FC1BCCDB3E0044C316 /* fficonfig_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F797610D1BCCDB3E0044C316 /* fficonfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760FD1BCCDB3E0044C316 /* fficonfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F797610E1BCCDB3E0044C316 /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760FE1BCCDB3E0044C316 /* ffitarget_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F797610F1BCCDB3E0044C316 /* ffitarget_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = F79760FF1BCCDB3E0044C316 /* ffitarget_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79761101BCCDB3E0044C316 /* ffitarget_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = F79761001BCCDB3E0044C316 /* ffitarget_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79761111BCCDB3E0044C316 /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = F79761011BCCDB3E0044C316 /* ffitarget_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79761121BCCDB3E0044C316 /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = F79761021BCCDB3E0044C316 /* ffitarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79761271BCCDB4E0044C316 /* closures.c in Sources */ = {isa = PBXBuildFile; fileRef = F79761131BCCDB4E0044C316 /* closures.c */; };
+		F79761281BCCDB4E0044C316 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = F79761141BCCDB4E0044C316 /* debug.c */; };
+		F79761291BCCDB4E0044C316 /* dlmalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = F79761151BCCDB4E0044C316 /* dlmalloc.c */; };
+		F797612A1BCCDB4E0044C316 /* java_raw_api.c in Sources */ = {isa = PBXBuildFile; fileRef = F79761161BCCDB4E0044C316 /* java_raw_api.c */; };
+		F797612B1BCCDB4E0044C316 /* prep_cif.c in Sources */ = {isa = PBXBuildFile; fileRef = F79761171BCCDB4E0044C316 /* prep_cif.c */; };
+		F797612C1BCCDB4E0044C316 /* raw_api.c in Sources */ = {isa = PBXBuildFile; fileRef = F79761181BCCDB4E0044C316 /* raw_api.c */; };
+		F797612D1BCCDB4E0044C316 /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = F79761191BCCDB4E0044C316 /* types.c */; };
+		F797612E1BCCDB4E0044C316 /* ffi_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = F797611B1BCCDB4E0044C316 /* ffi_arm64.c */; };
+		F797612F1BCCDB4E0044C316 /* sysv_arm64.S in Sources */ = {isa = PBXBuildFile; fileRef = F797611C1BCCDB4E0044C316 /* sysv_arm64.S */; };
+		F79761301BCCDB4E0044C316 /* ffi_armv7.c in Sources */ = {isa = PBXBuildFile; fileRef = F797611E1BCCDB4E0044C316 /* ffi_armv7.c */; };
+		F79761311BCCDB4E0044C316 /* sysv_armv7.S in Sources */ = {isa = PBXBuildFile; fileRef = F797611F1BCCDB4E0044C316 /* sysv_armv7.S */; };
+		F79761321BCCDB4E0044C316 /* trampoline_armv7.S in Sources */ = {isa = PBXBuildFile; fileRef = F79761201BCCDB4E0044C316 /* trampoline_armv7.S */; };
+		F79761331BCCDB4E0044C316 /* unix64_x86_64.S in Sources */ = {isa = PBXBuildFile; fileRef = F79761221BCCDB4E0044C316 /* unix64_x86_64.S */; };
+		F79761341BCCDB4E0044C316 /* sysv_i386.S in Sources */ = {isa = PBXBuildFile; fileRef = F79761231BCCDB4E0044C316 /* sysv_i386.S */; };
+		F79761351BCCDB4E0044C316 /* ffi64_x86_64.c in Sources */ = {isa = PBXBuildFile; fileRef = F79761241BCCDB4E0044C316 /* ffi64_x86_64.c */; };
+		F79761361BCCDB4E0044C316 /* ffi_i386.c in Sources */ = {isa = PBXBuildFile; fileRef = F79761251BCCDB4E0044C316 /* ffi_i386.c */; };
+		F7D0F2571BBA5E39009BC377 /* SwiftFFI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0F2561BBA5E39009BC377 /* SwiftFFI.swift */; };
+		F7E133171BBA5D9200B69DC9 /* SwiftFFI.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E133161BBA5D9200B69DC9 /* SwiftFFI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F67F8C1BD0C2F5003A8735 /* ffi_cfi.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F67F8B1BD0C2F5003A8735 /* ffi_cfi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F79760F31BCCDB3E0044C316 /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ffi_arm64.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F79760F41BCCDB3E0044C316 /* ffi_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ffi_armv7.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F79760F51BCCDB3E0044C316 /* ffi_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ffi_common.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F79760F61BCCDB3E0044C316 /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ffi_i386.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F79760F71BCCDB3E0044C316 /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ffi_x86_64.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F79760F81BCCDB3E0044C316 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ffi.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F79760F91BCCDB3E0044C316 /* fficonfig_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_arm64.h; sourceTree = "<group>"; };
+		F79760FA1BCCDB3E0044C316 /* fficonfig_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_armv7.h; sourceTree = "<group>"; };
+		F79760FB1BCCDB3E0044C316 /* fficonfig_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_i386.h; sourceTree = "<group>"; };
+		F79760FC1BCCDB3E0044C316 /* fficonfig_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_x86_64.h; sourceTree = "<group>"; };
+		F79760FD1BCCDB3E0044C316 /* fficonfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = fficonfig.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F79760FE1BCCDB3E0044C316 /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		F79760FF1BCCDB3E0044C316 /* ffitarget_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_armv7.h; sourceTree = "<group>"; };
+		F79761001BCCDB3E0044C316 /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		F79761011BCCDB3E0044C316 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		F79761021BCCDB3E0044C316 /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ffitarget.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F79761131BCCDB4E0044C316 /* closures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = closures.c; sourceTree = "<group>"; };
+		F79761141BCCDB4E0044C316 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
+		F79761151BCCDB4E0044C316 /* dlmalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dlmalloc.c; sourceTree = "<group>"; };
+		F79761161BCCDB4E0044C316 /* java_raw_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = java_raw_api.c; sourceTree = "<group>"; };
+		F79761171BCCDB4E0044C316 /* prep_cif.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prep_cif.c; sourceTree = "<group>"; };
+		F79761181BCCDB4E0044C316 /* raw_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = raw_api.c; sourceTree = "<group>"; };
+		F79761191BCCDB4E0044C316 /* types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = types.c; sourceTree = "<group>"; };
+		F797611B1BCCDB4E0044C316 /* ffi_arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi_arm64.c; sourceTree = "<group>"; };
+		F797611C1BCCDB4E0044C316 /* sysv_arm64.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = sysv_arm64.S; sourceTree = "<group>"; };
+		F797611E1BCCDB4E0044C316 /* ffi_armv7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi_armv7.c; sourceTree = "<group>"; };
+		F797611F1BCCDB4E0044C316 /* sysv_armv7.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = sysv_armv7.S; sourceTree = "<group>"; };
+		F79761201BCCDB4E0044C316 /* trampoline_armv7.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = trampoline_armv7.S; sourceTree = "<group>"; };
+		F79761221BCCDB4E0044C316 /* unix64_x86_64.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = unix64_x86_64.S; sourceTree = "<group>"; };
+		F79761231BCCDB4E0044C316 /* sysv_i386.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = sysv_i386.S; sourceTree = "<group>"; };
+		F79761241BCCDB4E0044C316 /* ffi64_x86_64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi64_x86_64.c; sourceTree = "<group>"; };
+		F79761251BCCDB4E0044C316 /* ffi_i386.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi_i386.c; sourceTree = "<group>"; };
+		F7D0F2561BBA5E39009BC377 /* SwiftFFI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFFI.swift; sourceTree = "<group>"; };
+		F7E133141BBA5D9200B69DC9 /* SwiftFFI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFFI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E133161BBA5D9200B69DC9 /* SwiftFFI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFFI.h; sourceTree = "<group>"; };
+		F7E133181BBA5D9200B69DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F67F8B1BD0C2F5003A8735 /* ffi_cfi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_cfi.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7E133101BBA5D9200B69DC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F797611A1BCCDB4E0044C316 /* aarch64 */ = {
+			isa = PBXGroup;
+			children = (
+				F797611B1BCCDB4E0044C316 /* ffi_arm64.c */,
+				F797611C1BCCDB4E0044C316 /* sysv_arm64.S */,
+			);
+			path = aarch64;
+			sourceTree = "<group>";
+		};
+		F797611D1BCCDB4E0044C316 /* arm */ = {
+			isa = PBXGroup;
+			children = (
+				F797611E1BCCDB4E0044C316 /* ffi_armv7.c */,
+				F797611F1BCCDB4E0044C316 /* sysv_armv7.S */,
+				F79761201BCCDB4E0044C316 /* trampoline_armv7.S */,
+			);
+			path = arm;
+			sourceTree = "<group>";
+		};
+		F79761211BCCDB4E0044C316 /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				F79761221BCCDB4E0044C316 /* unix64_x86_64.S */,
+				F79761231BCCDB4E0044C316 /* sysv_i386.S */,
+				F79761241BCCDB4E0044C316 /* ffi64_x86_64.c */,
+				F79761251BCCDB4E0044C316 /* ffi_i386.c */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
+		F7D0F2581BBA5ED6009BC377 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F7F67F8B1BD0C2F5003A8735 /* ffi_cfi.h */,
+				F79760F81BCCDB3E0044C316 /* ffi.h */,
+				F79760F51BCCDB3E0044C316 /* ffi_common.h */,
+				F79760FD1BCCDB3E0044C316 /* fficonfig.h */,
+				F79761021BCCDB3E0044C316 /* ffitarget.h */,
+				F79760F41BCCDB3E0044C316 /* ffi_armv7.h */,
+				F79760FA1BCCDB3E0044C316 /* fficonfig_armv7.h */,
+				F79760FF1BCCDB3E0044C316 /* ffitarget_armv7.h */,
+				F79760F61BCCDB3E0044C316 /* ffi_i386.h */,
+				F79760FB1BCCDB3E0044C316 /* fficonfig_i386.h */,
+				F79761001BCCDB3E0044C316 /* ffitarget_i386.h */,
+				F79760F71BCCDB3E0044C316 /* ffi_x86_64.h */,
+				F79760FC1BCCDB3E0044C316 /* fficonfig_x86_64.h */,
+				F79761011BCCDB3E0044C316 /* ffitarget_x86_64.h */,
+				F79760F31BCCDB3E0044C316 /* ffi_arm64.h */,
+				F79760F91BCCDB3E0044C316 /* fficonfig_arm64.h */,
+				F79760FE1BCCDB3E0044C316 /* ffitarget_arm64.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F7D0F2691BBA5ED6009BC377 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F79761131BCCDB4E0044C316 /* closures.c */,
+				F79761141BCCDB4E0044C316 /* debug.c */,
+				F79761151BCCDB4E0044C316 /* dlmalloc.c */,
+				F79761161BCCDB4E0044C316 /* java_raw_api.c */,
+				F79761171BCCDB4E0044C316 /* prep_cif.c */,
+				F79761181BCCDB4E0044C316 /* raw_api.c */,
+				F79761191BCCDB4E0044C316 /* types.c */,
+				F797611A1BCCDB4E0044C316 /* aarch64 */,
+				F797611D1BCCDB4E0044C316 /* arm */,
+				F79761211BCCDB4E0044C316 /* x86 */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F7E132941BBA593B00B69DC9 = {
+			isa = PBXGroup;
+			children = (
+				F7E1329F1BBA593B00B69DC9 /* libffi */,
+				F7E133151BBA5D9200B69DC9 /* SwiftFFI */,
+				F7E1329E1BBA593B00B69DC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7E1329E1BBA593B00B69DC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7E133141BBA5D9200B69DC9 /* SwiftFFI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7E1329F1BBA593B00B69DC9 /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				F7D0F2581BBA5ED6009BC377 /* include */,
+				F7D0F2691BBA5ED6009BC377 /* src */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
+		F7E133151BBA5D9200B69DC9 /* SwiftFFI */ = {
+			isa = PBXGroup;
+			children = (
+				F7E133161BBA5D9200B69DC9 /* SwiftFFI.h */,
+				F7E133181BBA5D9200B69DC9 /* Info.plist */,
+				F7D0F2561BBA5E39009BC377 /* SwiftFFI.swift */,
+			);
+			path = SwiftFFI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F7E133111BBA5D9200B69DC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F797610D1BCCDB3E0044C316 /* fficonfig.h in Headers */,
+				F79761111BCCDB3E0044C316 /* ffitarget_x86_64.h in Headers */,
+				F79761101BCCDB3E0044C316 /* ffitarget_i386.h in Headers */,
+				F797610A1BCCDB3E0044C316 /* fficonfig_armv7.h in Headers */,
+				F797610B1BCCDB3E0044C316 /* fficonfig_i386.h in Headers */,
+				F79761071BCCDB3E0044C316 /* ffi_x86_64.h in Headers */,
+				F79761121BCCDB3E0044C316 /* ffitarget.h in Headers */,
+				F79761061BCCDB3E0044C316 /* ffi_i386.h in Headers */,
+				F79761091BCCDB3E0044C316 /* fficonfig_arm64.h in Headers */,
+				F797610E1BCCDB3E0044C316 /* ffitarget_arm64.h in Headers */,
+				F79761041BCCDB3E0044C316 /* ffi_armv7.h in Headers */,
+				F7E133171BBA5D9200B69DC9 /* SwiftFFI.h in Headers */,
+				F79761031BCCDB3E0044C316 /* ffi_arm64.h in Headers */,
+				F797610C1BCCDB3E0044C316 /* fficonfig_x86_64.h in Headers */,
+				F797610F1BCCDB3E0044C316 /* ffitarget_armv7.h in Headers */,
+				F7F67F8C1BD0C2F5003A8735 /* ffi_cfi.h in Headers */,
+				F79761081BCCDB3E0044C316 /* ffi.h in Headers */,
+				F79761051BCCDB3E0044C316 /* ffi_common.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F7E133131BBA5D9200B69DC9 /* SwiftFFI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E133191BBA5D9200B69DC9 /* Build configuration list for PBXNativeTarget "SwiftFFI" */;
+			buildPhases = (
+				F7E1330F1BBA5D9200B69DC9 /* Sources */,
+				F7E133101BBA5D9200B69DC9 /* Frameworks */,
+				F7E133111BBA5D9200B69DC9 /* Headers */,
+				F7E133121BBA5D9200B69DC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFFI;
+			productName = SwiftFFI;
+			productReference = F7E133141BBA5D9200B69DC9 /* SwiftFFI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7E132951BBA593B00B69DC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mike Kasianowicz";
+				TargetAttributes = {
+					F7E133131BBA5D9200B69DC9 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = T9MRFF8Q26;
+					};
+				};
+			};
+			buildConfigurationList = F7E132981BBA593B00B69DC9 /* Build configuration list for PBXProject "libffi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7E132941BBA593B00B69DC9;
+			productRefGroup = F7E1329E1BBA593B00B69DC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7E133131BBA5D9200B69DC9 /* SwiftFFI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7E133121BBA5D9200B69DC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E1330F1BBA5D9200B69DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79761281BCCDB4E0044C316 /* debug.c in Sources */,
+				F797612F1BCCDB4E0044C316 /* sysv_arm64.S in Sources */,
+				F79761321BCCDB4E0044C316 /* trampoline_armv7.S in Sources */,
+				F7D0F2571BBA5E39009BC377 /* SwiftFFI.swift in Sources */,
+				F79761271BCCDB4E0044C316 /* closures.c in Sources */,
+				F79761301BCCDB4E0044C316 /* ffi_armv7.c in Sources */,
+				F797612C1BCCDB4E0044C316 /* raw_api.c in Sources */,
+				F79761311BCCDB4E0044C316 /* sysv_armv7.S in Sources */,
+				F797612E1BCCDB4E0044C316 /* ffi_arm64.c in Sources */,
+				F797612A1BCCDB4E0044C316 /* java_raw_api.c in Sources */,
+				F797612D1BCCDB4E0044C316 /* types.c in Sources */,
+				F79761291BCCDB4E0044C316 /* dlmalloc.c in Sources */,
+				F79761351BCCDB4E0044C316 /* ffi64_x86_64.c in Sources */,
+				F797612B1BCCDB4E0044C316 /* prep_cif.c in Sources */,
+				F79761361BCCDB4E0044C316 /* ffi_i386.c in Sources */,
+				F79761331BCCDB4E0044C316 /* unix64_x86_64.S in Sources */,
+				F79761341BCCDB4E0044C316 /* sysv_i386.S in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7E132A41BBA593B00B69DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7E132A51BBA593B00B69DC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7E1331A1BBA5D9200B69DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftFFI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.xtravar.SwiftFFI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7E1331B1BBA5D9200B69DC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftFFI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.xtravar.SwiftFFI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7E132981BBA593B00B69DC9 /* Build configuration list for PBXProject "libffi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E132A41BBA593B00B69DC9 /* Debug */,
+				F7E132A51BBA593B00B69DC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E133191BBA5D9200B69DC9 /* Build configuration list for PBXNativeTarget "SwiftFFI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E1331A1BBA5D9200B69DC9 /* Debug */,
+				F7E1331B1BBA5D9200B69DC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7E132951BBA593B00B69DC9 /* Project object */;
+}
